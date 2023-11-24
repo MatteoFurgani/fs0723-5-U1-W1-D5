@@ -1,0 +1,111 @@
+html {
+  min-width: 300px;
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.color {
+  color: #25a2c3;
+}
+.margini {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  line-height: 1.5;
+  background-color: black;
+  text-align: center;
+}
+header img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+nav {
+  background-image: url(./assets/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 6em;
+  padding-top: 4em;
+}
+nav h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.8em;
+  font-weight: 800;
+}
+
+code button {
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+}
+h2,
+p {
+  margin-bottom: 1em;
+}
+a {
+  color: white;
+}
+div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+div section {
+  color: white;
+  background-color: red;
+}
+div section h2 {
+  margin-top: 20px;
+}
+section {
+  margin-bottom: 20px;
+  border: 1px solid #dee1e3;
+}
+article {
+  margin-bottom: 60px;
+}
+hr {
+  width: 50%;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  background-color: #25a2c3;
+}
+footer h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+address {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+footer hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
